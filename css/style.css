@@ -1,0 +1,30 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+.logo-img{
+    height:70px;
+    width:70px;
+}
+.opacity{
+    opacity: 0.6;
+}
+.opacity:hover{
+    opacity:1;
+}
+.about{
+    background-image:url("../images/woman-punching-the-hand-of-man-wearing-training-gloves-1544774.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.about-text{
+    background-color:rgba(179, 171, 171, 0.8);
+    color:white;
+    padding:1.8rem;
+}
+div>div>a{
+    color:white;
+}
+i{
+    font-size: x-large;
+}
