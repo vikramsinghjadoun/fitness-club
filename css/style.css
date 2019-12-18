@@ -7,10 +7,11 @@ body,html{
     width:70px;
 }
 .opacity{
-    opacity: 0.6;
+    opacity: 0.4;
 }
 .opacity:hover{
     opacity:1;
+    z-index: 0;
 }
 .about{
     background-image:url("../images/woman-punching-the-hand-of-man-wearing-training-gloves-1544774.jpg");
@@ -28,3 +29,36 @@ div>div>a{
 i{
     font-size: x-large;
 }
+.container-fluid{
+    padding:0;
+    margin:0;
+}
+.row{
+    margin: 0;
+}
+.card-deck{
+margin-right: 0;
+margin-left:0;
+}
+.bg-color{
+    background-color: #000;
+}
+.btn-color{
+    background:linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+}
+.text-color{
+    font-weight:600;
+    background: -webkit-linear-gradient(#ff0055, #ff6600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.table th{
+    padding-left:0;
+    padding-right:0;
+
+}
+/* .gym-header{
+    background: transparent !important;
+    position:fixed;
+    linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
+} */
