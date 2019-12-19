@@ -63,7 +63,6 @@ margin-left:0;
     linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
 } */
 #testimonial .container-fluid{
-    padding:100px;
     background-color:#000;
 }
 .carousel-inner .carousel-item .img-box{
@@ -90,5 +89,18 @@ margin-left:0;
     }
     100%{
         right:0px;left:0px;opacity:1;
+    }
+}
+@media screen and (max-width :600px){
+    @keyframes myanimation{
+        0%{
+            left:0px ;right:0px;opacity:1;
+        }
+        50%{
+            left:40px;opacity:0.6;
+        }
+        100%{
+            right:0px;left:0px;opacity:1;
+        }
     }
 }
