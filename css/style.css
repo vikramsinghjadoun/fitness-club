@@ -62,3 +62,33 @@ margin-left:0;
     position:fixed;
     linear-gradient(45deg, #ff0055 0%, #ff6600 100%);
 } */
+#testimonial .container-fluid{
+    padding:100px;
+    background-color:#000;
+}
+.carousel-inner .carousel-item .img-box{
+    width:135px;
+    height:135px;
+}
+.logo{
+    position: relative;
+    animation-name:myanimation;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    transition-property:background;
+    transition-duration:3s;
+}
+.logo:hover{
+    background:linear-gradient(45deg, #e75252 0%, #e4b61e 100%)
+}
+@keyframes myanimation{
+    0%{
+        left:0px ;right:0px;opacity:1;
+    }
+    50%{
+        left:210px;opacity:0.6;
+    }
+    100%{
+        right:0px;left:0px;opacity:1;
+    }
+}
