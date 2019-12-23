@@ -80,6 +80,16 @@ margin-left:0;
 .logo:hover{
     background:linear-gradient(45deg, #e75252 0%, #e4b61e 100%)
 }
+.clock {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translateX(-50%) translateY(-50%); */
+    color: #17D4FE;
+    font-size: 45px;
+    font-family: 'Akronim';
+    letter-spacing: 6px
+}
 @keyframes myanimation{
     0%{
         left:0px ;right:0px;opacity:1;

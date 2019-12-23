@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <link href='https://fonts.googleapis.com/css?family=Akronim' rel='stylesheet'>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
@@ -133,6 +134,14 @@
             </div>
         </div>
         <!-- card ends -->
+
+        <!-- add clock with js -->
+        <div class="text-danger text-center">
+            <h1>Time Never Stop</h1>
+            <div class="clock text-color" id="displayClock" onload="showTime()"></div>
+        </div>
+        <!-- clock code end -->
+
         <!-- about content starts from here -->
         <div class="about mt-2 mb-2">
             <div class="col-md-6 p-4">
@@ -332,6 +341,7 @@
     </div>
     <!-- footer ends from here -->
 </body>
+<script src="./js/clock.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
