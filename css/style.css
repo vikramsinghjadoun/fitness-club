@@ -80,6 +80,10 @@ margin-left:0;
 .logo:hover{
     background:linear-gradient(45deg, #e75252 0%, #e4b61e 100%)
 }
+.navbar{
+    position:relative;
+    z-index: 10;
+}
 .clock {
     /* position: absolute;
     top: 50%;
